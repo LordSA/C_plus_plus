@@ -1,3 +1,4 @@
+// -------------------------- https://github.com/LordSA -------------------------
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
@@ -15,6 +16,7 @@ public:
     double d(double x, double y);
 };
 // Function
+// -------------------------- https://github.com/LordSA -------------------------
 // addition
 double calc::a(double x, double y)
 {
@@ -36,6 +38,7 @@ double calc::d(double x, double y)
     return (x / y);
 }
 // program
+// -------------------------- https://github.com/LordSA -------------------------
 int main()
 {
     calc c;
@@ -88,6 +91,7 @@ b:
                 goto b;
         }
     a:
+// -------------------------- https://github.com/LordSA -------------------------
         switch (i)
         {
         case 1:
@@ -204,3 +208,4 @@ b:
     } while (i != 5);
     return 0;
 }
+// -------------------------- https://github.com/LordSA -------------------------
